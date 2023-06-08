@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Archive to add"
+read archive
+git add $archive
+echo "commit name?"
+read commit
+git commit -m $commit
+git push
